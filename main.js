@@ -40,3 +40,8 @@
        }
 
        envioPalpite.addEventListener('click', verificarPalpite)
+
+       function finalizarJogo() {
+        campoPalpite.disable = true;
+        envioPalpite.disable = true;
+       }
