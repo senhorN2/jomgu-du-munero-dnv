@@ -48,3 +48,20 @@
         document.body.appendChild(botaoReiniciar);
         botaoReiniciar.addEventListener('click', reiniciarJogo);
        }
+
+
+       function reiniciarJogo() {
+        contagemPalpites = 1;
+        const paragrafosReiniciar = document.querySelectorAll('.paragrafosResultado p');
+        for (const paragrafosReiniciar of paragrafosReiniciar) {
+            paragrafosReiniciar.textContent = "";
+        }
+
+        botaoReiniciar.parentNode.removeChild(botaoReiniciar);
+        campoPalpite.disabled = false;
+        envioPalpite.disabled = false;
+        campoPalpite.value = "";
+        campoPalpite.focus();
+        ultimoResultado.style.backgroundColor = 'white';
+        numeroAleatorio = Math.floor(Math.random() * 100) + 1;
+       }
