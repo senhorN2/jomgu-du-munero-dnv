@@ -38,3 +38,5 @@
             campoPalpite.value = "";
             campoPalpite.focus();
        }
+
+       envioPalpite.addEventListener('click', verificarPalpite)
