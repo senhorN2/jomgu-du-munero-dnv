@@ -33,4 +33,8 @@
                     baixoOuAlto.textContent = "muito alto, burro!!!!!!"
                 }
             }
+
+            contagemPalpites++;
+            campoPalpite.value = "";
+            campoPalpite.focus();
        }
