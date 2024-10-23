@@ -34,8 +34,18 @@
                 ultimoResultado.style.backgroundColor = "red";
                 if (palpiteUsuario < numeroAleatorio) {
                     baixoOuAlto.textContent = "muito baixo, burro!!!!!!"
+                    document.body.style.backgroundColor = 'dark-red';
+                    setTimeout(() => {
+                        document.body.style.transition = 'background-color 0.5s ease';
+                        document.body.style.backgroundColor = '';
+                    }, 1000);
                 } else if (palpiteUsuario > numeroAleatorio) {
                     baixoOuAlto.textContent = "muito alto, burro!!!!!!"
+                    document.body.style.backgroundColor = 'dark-red';
+                    setTimeout(() => {
+                        document.body.style.transition = 'background-color 0.5s ease';
+                        document.body.style.backgroundColor = '';
+                    }, 1000);
                 }
             }
 
