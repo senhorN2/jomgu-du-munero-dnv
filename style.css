@@ -45,6 +45,17 @@ align-items: center;
         font-size: 1.1em;
       }
 
+.formulario input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
       .ultimoResultado {
         color: white;
         padding: 3px;
