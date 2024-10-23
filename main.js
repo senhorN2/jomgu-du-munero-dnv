@@ -10,7 +10,7 @@
     function verificarPalpite() {
         const palpiteUsuario = Number(campoPalpite.value);
         if (contagemPalpites === 1) {
-            palpites.textContent = "Palpites anteriores: ";
+            palpites.textContent = "Números anteriores: ";
         }
 
         palpites.textContent += palpiteUsuario + " ";
