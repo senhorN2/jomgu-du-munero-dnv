@@ -21,7 +21,7 @@
             baixoOuAlto.textContent = "";
             finalizarJogo();
             } else if (contagemPalpites === 10) {
-                ultimoResultado.textContent = "FIM DE JOGO!!!";
+                ultimoResultado.textContent = "SEU ANIMAL!!!";
                 baixoOuAlto.textContent = "";
                 finalizarJogo();
             } else {
