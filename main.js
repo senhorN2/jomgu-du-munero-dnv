@@ -19,6 +19,11 @@
             ultimoResultado.textContent = "Parabéns! Você acertou";
             ultimoResultado.style.backgroundColor = "green";
             baixoOuAlto.textContent = "";
+            document.body.style.backgroundColor = 'green';
+            setTimeout(() => {
+                document.body.style.transition = 'background-color 1s ease';
+                document.body.style.backgroundColor = '';
+            }, 1000);
             finalizarJogo();
             } else if (contagemPalpites === 10) {
                 ultimoResultado.textContent = "SEU ANIMAL!!!";
@@ -33,13 +38,6 @@
                     baixoOuAlto.textContent = "muito alto, burro!!!!!!"
                 }
             }
-
-            document.body.style.backgroundColor = 'red';
-
-            setTimeout(() => {
-                document.body.style.transition = 'background-color 1s ease';
-                document.body.style.backgroundColor = '';
-            }, 1000);
 
             contagemPalpites++;
             campoPalpite.value = "";
