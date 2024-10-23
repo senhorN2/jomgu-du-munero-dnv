@@ -33,6 +33,11 @@ align-items: center;
 
       .formulario input[type="number"] {
         width: 200px;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        font-size: 1.1em;
       }
 
       .ultimoResultado {
