@@ -34,6 +34,13 @@
                 }
             }
 
+            document.body.style.backgroundColor = 'red';
+
+            setTimeout(() => {
+                document.body.style.transition = 'background-color 1s ease';
+                document.body.style.backgroundColor = '';
+            }, 1000);
+
             contagemPalpites++;
             campoPalpite.value = "";
             campoPalpite.focus();
