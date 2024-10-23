@@ -41,7 +41,7 @@
                     }, 1000);
                 } else if (palpiteUsuario > numeroAleatorio) {
                     baixoOuAlto.textContent = "muito alto, burro!!!!!!"
-                    document.html.style.backgroundColor = '#ff4a4a';
+                    document.html.style.backgroundColor = '#ff4a4a'; //essa bosta n quer funcionar tmnc
                     setTimeout(() => {
                         document.body.style.transition = 'background-color 0.5s ease';
                         document.body.style.backgroundColor = '';
