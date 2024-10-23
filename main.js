@@ -19,7 +19,7 @@
             ultimoResultado.textContent = "Parabéns! Você acertou";
             ultimoResultado.style.backgroundColor = "green";
             baixoOuAlto.textContent = "";
-            document.body.style.backgroundColor = 'green';
+            document.body.style.backgroundColor = '#9b5252';
             setTimeout(() => {
                 document.body.style.transition = 'background-color 0.5s ease';
                 document.body.style.backgroundColor = '';
@@ -34,14 +34,14 @@
                 ultimoResultado.style.backgroundColor = "red";
                 if (palpiteUsuario < numeroAleatorio) {
                     baixoOuAlto.textContent = "muito baixo, burro!!!!!!"
-                    document.body.style.backgroundColor = '#000000';
+                    document.body.style.backgroundColor = '#9b5252';
                     setTimeout(() => {
                         document.body.style.transition = 'background-color 0.5s ease';
                         document.body.style.backgroundColor = '';
                     }, 1000);
                 } else if (palpiteUsuario > numeroAleatorio) {
                     baixoOuAlto.textContent = "muito alto, burro!!!!!!"
-                    document.body.style.backgroundColor = '#000000';
+                    document.body.style.backgroundColor = '#9b5252';
                     setTimeout(() => {
                         document.body.style.transition = 'background-color 0.5s ease';
                         document.body.style.backgroundColor = '';
