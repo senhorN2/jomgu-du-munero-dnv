@@ -21,7 +21,7 @@
             baixoOuAlto.textContent = "";
             document.body.style.backgroundColor = 'green';
             setTimeout(() => {
-                document.body.style.transition = 'background-color 1s ease';
+                document.body.style.transition = 'background-color 0.5s ease';
                 document.body.style.backgroundColor = '';
             }, 1000);
             finalizarJogo();
