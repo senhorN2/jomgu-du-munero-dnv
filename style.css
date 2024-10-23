@@ -1,34 +1,55 @@
-      html {
-        font-family: 'Arial' sans-serif;
-        background: linear-gradient(to top, #5050ff, #ffffff);
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        transition: background-color 0.5s ease;
-      }
+html {
+  font-family: 'Arial' sans-serif;
+  background: linear-gradient(to top, #5050ff, #ffffff);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-      body {
-        width: 50%;
-        max-width: 800px;
-        min-width: 480px;
-        margin: 0 auto;
-        background-color: #ffffff;
-        padding: 20px;
-        border-radius: 10px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-      }
-      
+body {
+  width: 50%;
+  height: 50%;
+  max-height: 400px;
+  min-height: 200px;
+  max-width: 800px;
+  min-width: 480px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 20px 8px rgba(0, 0, 0, 0.5);
+  transition: background-color 0.5s ease;
+}
+
 h1 {
-  text-align: center;
-  font-size: 2.5em;
-  color: #333;
-  margin-bottom: 20px;
+text-align: center;
+font-size: 2.5em;
+color: #333;
+margin-bottom: 20px;
 }
 
 p {
-  align-items: center;
+align-items: center;
+text-align: center;
+}
+
+.palpites {
+  font-size: 1.3em;
   text-align: center;
+  margin-top: 5%;
+}
+
+.textoAbaixo {
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 4%;
+  color: white;
+  text-shadow: 0.05em 0.05em 0em black, 
+  -0.05em 0.05em 0em black,  
+  0.05em -0.05em 0em black,  
+  -0.05em -0.05em 0em black;
 }
 
 .formulario{
@@ -37,33 +58,28 @@ flex-direction: column;
 align-items: center;
 }
 
-      .formulario input[type="number"] {
-        width: 200px;
-        padding: 10px;
-        margin-bottom: 10px;
-        border-radius: 5px;
-        border: 1px solid #ccc;
-        font-size: 1.1em;
-      }
+.formulario input[type="number"] {
+  width: 200px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1.1em;
+}
 
 .formulario input[type="submit"] {
-  padding: 10px 20px;
-  background-color: #28a745;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  font-size: 1.1em;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+padding: 10px 20px;
+background-color: #28a745;
+color: white;
+border: none;
+border-radius: 5px;
+font-size: 1.1em;
+cursor: pointer;
+transition: background-color 0.3s ease;
+transition: box-shadow 0.1s ease;
 }
 
 .formulario input[type="submit"]:hover {
-  background-color: #218838;
+background-color: #218838;
+box-shadow: 0 4px 8px #218838;
 }
-
-
-
-      .ultimoResultado {
-        color: white;
-        padding: 3px;
-      }
