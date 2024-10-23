@@ -1,4 +1,4 @@
-    let numeroAleatorio = Math.floor(Math.random() * 10000) + 1;
+    let numeroAleatorio = Math.floor(Math.random() * 100) + 1;
     const palpites = document.querySelector('.palpites');
     const ultimoResultado = document.querySelector('.ultimoResultado');
     const baixoOuAlto = document.querySelector('.baixoOuAlto');
@@ -63,5 +63,5 @@
         campoPalpite.value = "";
         campoPalpite.focus();
         ultimoResultado.style.backgroundColor = 'white';
-        numeroAleatorio = Math.floor(Math.random() * 10000) + 1;
+        numeroAleatorio = Math.floor(Math.random() * 100) + 1;
        }
