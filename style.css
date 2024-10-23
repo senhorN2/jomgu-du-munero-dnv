@@ -1,6 +1,6 @@
       html {
-        font-family: 'Comic sans' sans-serif;
-        background: linear-gradient(to right, #5050ff, #ffffff);
+        font-family: 'Arial' sans-serif;
+        background: linear-gradient(to top, #5050ff, #ffffff);
         height: 100vh;
         display: flex;
         justify-content: center;
