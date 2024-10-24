@@ -7,19 +7,22 @@
 </head>
 
 <body>
-  <h1>Advinhe</h1>
+  <h1>Adivinhe</h1>
 
   <p>Diga um número de 1 à 100.</p>
-
   <div class="formulario">
     <label for="campoPalpite">Digite um número: </label>
     <input type="number" min="1" max="100" required id="campoPalpite" class="campoPalpite">
-    <input type="submit" value="Advinhar" class="envioPalpite">
+    <input type="submit" value="Adivinhar" class="envioPalpite">
   </div>
 
   <div class="paragrafosResultado">
     <p class="palpites"></p>
     <p class="textoAbaixo"></p>
+  </div>
+
+  <div class="reiniciar">
+    <button onclick="reiniciarJogo()">Reiniciar Jogo</button>
   </div>
 
   <script src="main.js"></script>
