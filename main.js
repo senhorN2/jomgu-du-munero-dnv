@@ -106,6 +106,7 @@ function verificarPalpite() {
     campoPalpite.focus();
     envioPalpite.style.cursor = 'pointer';
     envioPalpite.style.backgroundColor = '#28a745';
+    envioPalpite.style.boxShadow = '';
     palpites.textContent = "Números anteriores: ";
     numeroAleatorio = Math.floor(Math.random() * 100) + 1;
     document.body.appendChild(botaoReiniciar);
