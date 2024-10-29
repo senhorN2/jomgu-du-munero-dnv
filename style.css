@@ -98,7 +98,7 @@ align-items: center;
 .reiniciar button {
   position: fixed;
   padding: 1vh 2vh;
-  margin-bottom: 2.25vh;
+  margin-bottom: 2.25vw;
   background-color: #28a745;
   color: white;
   border: none;
